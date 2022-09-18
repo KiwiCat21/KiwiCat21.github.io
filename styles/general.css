@@ -1,13 +1,10 @@
 body {
     margin: 0;
-    background: #29193d
+    padding: 0;
+    background: #3f246c
 }
-.container {
-    width:300px;
-}
-h1 {
-    color: #b05219;
+h2 {
+    color: #e2ffef;
     font-family: menco, sans-serif;
     font-weight: 900;
 }
-
