@@ -2,6 +2,7 @@ a {text-decoration: none;}
 body {
     margin: 0;
     padding: 0;
+    line-height: 1.54;
     background: #3f246c
 }
 h2 {
