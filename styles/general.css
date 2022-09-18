@@ -3,6 +3,7 @@ body {
     margin: 0;
     padding: 0;
     line-height: 1.54;
+    box-sizing: inherit;
     background: #3f246c
 }
 h2 {
