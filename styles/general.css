@@ -1,0 +1,13 @@
+body {
+    margin: 0;
+    background: #29193d
+}
+.container {
+    width:300px;
+}
+h1 {
+    color: #b05219;
+    font-family: menco, sans-serif;
+    font-weight: 900;
+}
+
