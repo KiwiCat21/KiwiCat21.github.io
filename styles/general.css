@@ -1,62 +1,85 @@
 :root {
     --ff-primary: 'menco', sans-serif;
     
-    --clr-primary-200: #5cdb94;
-    --clr-primary-400: #389583;
+    /*--clr-primary-200: #5cdb94;*/
+    --clr-primary-200: white;
+    /*--clr-primary-400: #389583;*/
+    --clr-primary-400: #000000;
 }
 *{
     text-decoration: none;
     list-style: none;
-    box-sizing: inherit;
     padding: 0;
     margin: 0;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+}
+h1 {
+    font-family: var(--ff-primary);
+    font-weight: 900;
+    color: black;
+    text-align: center;
+    margin-block: auto;
+    padding-left: 20px;
+    font-size: 5rem;
 }
 h2 {
     font-family: var(--ff-primary);
     font-weight: 900;
     color: white;
 }
+h3 {font-family: var(--ff-primary);
+    font-weight: 700;
+    color: white;
+}
 body {
     font-family: var(--ff-primary);
     font-weight: 300;
-    font-size: 1.3125rem;
-    line-height: 1.6;
-    background: var(--clr-primary-400);
-}
-.text-center {
-    text-align: center;
-}
-.main_container {
-    margin: auto;
-    padding: 0;
-    width: 70%;
-    min-height: 500rem;
+    font-size: 20px;
+    /*line-height: 1.6;*/
     background: var(--clr-primary-200);
+    max-width: 1000px;
+    /* position: relative; */
+    margin: auto;
 }
-.header {
+
+/* .main_container { */
+    /* margin: auto; */
+    /* width: 100%; */
+    /*background: var(--clr-primary-200);
+    background-image: radial-gradient(var(--clr-primary-400) 10%, transparent 10%);
+    background-size: 18px 20px;
+	background-position: center;*/
+/* }
+/* .header {
     width: 100%;
-    height: 4rem;
-    padding-top: 0.8rem;
-    padding-left: 0.4rem;
+    height: 100px;
+    /*padding-top: 0.7rem;
     display: block;
-    /*background-color: red;*/
-    margin: 0 auto;
-    border-bottom: #194940;
-}
-.logo_container {
-    height: 100%;
-    display: table;
-    float: left;
-}
+    /*margin: 0 auto;
+    background-color: var(--clr-primary-200);
+}*/
 .logo_container h2{
     height: 100%;
     display: table-cell;
     vertical-align: middle;
+    /*border: 3px;*/
 }
 .logo_container img{
-    width: 4rem;
+    width: 50px;
+    /*display: table-cell;*/
+    /*vertical-align: middle;*/
+    /*margin: 0 0.25rem;*/
+}
+.navigation {
+    /*margin-right: 50px;*/
+    float: right;
     vertical-align: middle;
-    margin: auto 0.25rem;
+}
+.navigation li {
+    display: inline-block;
 }
 
 @media (max-width: 952px){
