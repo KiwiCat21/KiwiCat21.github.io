@@ -1,9 +1,6 @@
 :root {
     --ff-primary: 'menco', sans-serif;
-    
-    /*--clr-primary-200: #5cdb94;*/
     --clr-primary-200: white;
-    /*--clr-primary-400: #389583;*/
     --clr-primary-400: #000000;
 }
 *{
