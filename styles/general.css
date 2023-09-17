@@ -17,6 +17,12 @@
     display: flex;
     clear: both;
 }
+.row2 {
+    font-size: 0px;
+    width: 100%;
+    padding: 0px;
+    margin-top: 40px;
+}
 .column1 {
     width: 49%;
     float: left;
@@ -71,6 +77,10 @@ p {
     max-width: 70%;
     margin: auto;
 }
+.row2 p {
+    max-width: 100%;
+    text-align: center;
+}
 body {
     font-family: var(--ff-primary);
     font-size: 40px;
@@ -80,10 +90,6 @@ body {
     position: relative;
     margin: auto;
 }
-.buttons {
-    
-}
-
 @media (max-width: 800px){
     p {
         font-size: 20px;
@@ -95,7 +101,6 @@ body {
 
 @media (max-width: 500px){
     h1 img {
-        margin-bottom: 30px;
         max-width: 100%;
     }
     img {
