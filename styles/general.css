@@ -9,21 +9,26 @@
 }
 .row {
     font-size: 0px;
-    margin-bottom: 10px;
+    margin-bottom: 2%;
     width: 100%;
 }
 .row:after {
-        content: "";
-        display: table;
-        clear: both;
+    content: "";
+    display: flex;
+    clear: both;
 }
 .column1 {
-    width: 40%;
+    width: 49%;
     float: left;
-    padding: 10px;
+}
+.column2 {
+    width: 49%;
+    float: right;
 }
 .DesktopView {
     display: block;
+    width: 80%;
+    margin: auto;
 }
 .MobileView {
     display: none;
