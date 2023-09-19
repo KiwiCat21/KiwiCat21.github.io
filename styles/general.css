@@ -121,6 +121,10 @@ body {
     .DesktopView {
         display: none;
     }
+    .row2 img{
+        width: 20%;
+        text-decoration: none;
+    }
 }
 @media (max-width: 400px){
     p {
